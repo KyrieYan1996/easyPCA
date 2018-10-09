@@ -48,4 +48,5 @@ lowDataMat = np.matmul(meanRemoved,reserveVec)
 ## PCA结果
 这样，整个PCA的过程就结束了，后面我利用手写数据集对PCA进行测试，下图是对数据集进行不同程度的降维之后再进行预测。横坐标代表降低到多少维，纵坐标为准确率。最终得到的准确率最高达到94.7%。
 ![PCA](pca.png)
+![](not_sub_mean.png)
 
